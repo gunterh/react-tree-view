@@ -56,5 +56,10 @@ const nodes = [
 ];
 
 export default function App() {
-  return <TreeView nodes={nodes} />;
+  return (
+    <>
+      <h1>Treeview</h1>
+      <TreeView nodes={nodes} />
+    </>
+  );
 }
